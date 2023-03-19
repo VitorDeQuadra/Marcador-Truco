@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador de Truco</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="tudo">
+        <div class="corpo">
+            <div class="nos">
+
+                <h1>NÓS</h1>
+                <h2 id="manos">0</h2>
+                <button class="neg" onclick="menosNos()">-1</button>
+                <button class="pos" onclick="maisUmNos()">+1</button>
+                <button class="pos" onclick="maisTresNos()">+3</button>
+                <button class="pos" onclick="maisSeisNos()">+6</button>
+                <button class="pos" onclick="maisNoveNos()">+9</button>
+                <button class="pos" onclick="maisDozeNos()">+12</button>
+
+            </div>
+
+
+            <div class="eles">
+
+                <h1>ELES</h1>
+                <h2 id="inimigos">0</h2>
+                <button class="neg" onclick="menosEles()">-1</button>
+                <button class="pos" onclick="maisUmEles()">+1</button>
+                <button class="pos" onclick="maisTresEles()">+3</button>
+                <button class="pos" onclick="maisSeisEles()">+6</button>
+                <button class="pos" onclick="maisNoveEles()">+9</button>
+                <button class="pos" onclick="maisDozeEles()">+12</button>
+
+            </div> 
+        </div>
+    </div>
+    
+    
+
+    <button class="zer" onclick="zerar()">Zerar Pontuação</button>
+     
+    <script src="main.js"></script>
+</body>
+
+</html>
