@@ -22,12 +22,16 @@ body {
     width: 90%;
   }
   
-  .nos, .eles {
-    border-right: 2px solid #fff;
+   .nos, .eles {
     display: grid;
     height: 100%;
     justify-content: center;
     width: 50%;
+  }
+
+  .nos {
+    border-right: 2px solid #fff;
+
   }
   
   /* Estilos dos cabeçalhos */
