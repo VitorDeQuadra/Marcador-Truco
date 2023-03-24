@@ -23,6 +23,7 @@ function maisUmNos() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -44,6 +45,7 @@ function maisTresNos() {
     
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -71,6 +73,7 @@ function maisSeisNos() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -107,6 +110,7 @@ function maisNoveNos() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -152,6 +156,7 @@ function maisDozeNos() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -180,6 +185,7 @@ function maisUmEles() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -201,6 +207,7 @@ function maisTresEles() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -228,6 +235,7 @@ function maisSeisEles() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -264,6 +272,7 @@ function maisNoveEles() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -309,6 +318,7 @@ function maisDozeEles() {
 
     if (eles >= 12 || nos >= 12) { 
         setTimeout(showPopup, 500);
+        setTimeout(zerar, 1000);
     }
 }
 
@@ -341,6 +351,17 @@ function fechar() {
   background.style.display = 'none';
 }
   
+
+
+
+
+
+
+
+
+
+
+
 
 
 
